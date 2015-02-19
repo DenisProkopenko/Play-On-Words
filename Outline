@@ -1,0 +1,34 @@
+# Play-On-Words
+Test program in development
+
+Outline:
+main()
+	-DisplayScreen
+		-scaleDisplay
+
+	-RunGame
+		-classDeck
+		  -stack <card> //cards are now in a stack
+			-newDeck() //initilize all letters
+			-drawCard() //draw first card from top
+			-shuffle() //randomize the stack
+			-getTop() //flip the top cards of the 8 stacks
+
+		-classPlayer
+			-hand(cardList)()
+			-words(listOfWords)()
+			-createWord()
+			-playerWord()
+			-drawCard()
+			
+		-classCardList
+			-addCard()
+			-removeCard()
+			-moveCard()
+			-checkDictionary()
+			-display()
+			-card()
+
+	-ImportDictionary
+
+	-ExitGame
